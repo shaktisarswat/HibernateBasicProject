@@ -18,5 +18,7 @@
         <mapping class="com.hibernate.Address"/>
         <mapping class="com.mapping.Question"/>
         <mapping class="com.mapping.Answer"/>
+        <mapping class="com.mapping.ManyToOneAnswer"/>
+        <mapping class="com.mapping.OneToManyMappingQuestion"/>
     </session-factory>
 </hibernate-configuration>
