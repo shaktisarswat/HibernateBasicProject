@@ -16,5 +16,7 @@
         <property name="current_session_context_class">thread</property>
         <mapping class="com.hibernate.Student"/>
         <mapping class="com.hibernate.Address"/>
+        <mapping class="com.mapping.Question"/>
+        <mapping class="com.mapping.Answer"/>
     </session-factory>
 </hibernate-configuration>

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23dc0ab-d441-4f54-adeb-a8d219d9a28d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/Certificate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/EmbeddableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapping/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapping/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapping/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mapping" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\resources" />
     </key>
@@ -64,7 +66,7 @@
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\java\com\hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmbeddableExample">
+  <component name="RunManager" selected="Application.MapDemo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="HibernateBasicProject" />
@@ -91,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapping.MapDemo" />
+      <module name="HibernateBasicProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.hibernate.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hibernate.App" />
       <module name="HibernateBasicProject" />
@@ -106,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapDemo" />
         <item itemvalue="Application.EmbeddableExample" />
         <item itemvalue="Application.com.hibernate.App" />
         <item itemvalue="Application.App" />
