@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23dc0ab-d441-4f54-adeb-a8d219d9a28d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/Certificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/EmbeddableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +64,26 @@
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\java\com\hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.hibernate.App">
+  <component name="RunManager" selected="Application.EmbeddableExample">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="HibernateBasicProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.EmbeddableExample" />
+      <module name="HibernateBasicProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmbeddableExample" />
         <item itemvalue="Application.com.hibernate.App" />
         <item itemvalue="Application.App" />
       </list>

@@ -31,8 +31,8 @@ public class App {
         address.setImage(bytes);
         Session session = factory.openSession();
         session.beginTransaction();
-        session.save(student);
-        session.save(address);
+//        session.save(student);
+//        session.save(address);
         session.getTransaction().commit();
 
         // Getting Object from database
