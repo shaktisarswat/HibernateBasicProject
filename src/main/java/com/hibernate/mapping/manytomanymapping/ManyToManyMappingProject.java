@@ -1,4 +1,4 @@
-package com.mapping.manytomanymapping;
+package com.hibernate.mapping.manytomanymapping;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

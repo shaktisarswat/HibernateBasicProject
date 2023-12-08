@@ -1,4 +1,4 @@
-package com.mapping.manytomanymapping;
+package com.hibernate.mapping.manytomanymapping;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

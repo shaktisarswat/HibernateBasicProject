@@ -1,4 +1,4 @@
-package com.mapping;
+package com.hibernate.mapping;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
