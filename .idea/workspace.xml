@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23dc0ab-d441-4f54-adeb-a8d219d9a28d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/cascading/CascadingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/caching/firstlevelcaching/FirstLevelCaching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/caching/secondlevelcaching/SecondLevelCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/basicentity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/basicentity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +67,11 @@
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\resources" />
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\java\com\hibernate" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hibernate.caching.secondlevelcaching" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CascadingExample">
+  <component name="RunManager" selected="Application.SecondLevelCache">
     <configuration name="CascadingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hibernate.cascading.CascadingExample" />
       <module name="HibernateBasicProject" />
@@ -78,25 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HQLDeleteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.hql.HQLDeleteExample" />
+    <configuration name="FirstLevelCaching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.caching.firstlevelcaching.FirstLevelCaching" />
       <module name="HibernateBasicProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hibernate.hql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HQLGetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.hql.HQLGetExample" />
-      <module name="HibernateBasicProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hibernate.hql.*" />
+          <option name="PATTERN" value="com.hibernate.caching.firstlevelcaching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondLevelCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.caching.secondlevelcaching.SecondLevelCache" />
+      <module name="HibernateBasicProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.caching.secondlevelcaching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondLevelCache" />
+        <item itemvalue="Application.FirstLevelCaching" />
         <item itemvalue="Application.CascadingExample" />
         <item itemvalue="Application.ManyToOneMappingDemo" />
         <item itemvalue="Application.HQLUpdateExample" />
-        <item itemvalue="Application.HQLDeleteExample" />
-        <item itemvalue="Application.HQLGetExample" />
       </list>
     </recent_temporary>
   </component>

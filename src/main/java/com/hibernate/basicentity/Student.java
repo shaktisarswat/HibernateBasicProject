@@ -1,11 +1,15 @@
 package com.hibernate.basicentity;
 
-import com.hibernate.basicentity.Certificate;
+import org.hibernate.annotations.Cache;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
 
+import javax.persistence.Cacheable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
 public class Student {
     @Id
     private int id;
@@ -56,11 +60,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", city='" + city + '\'' +
-                '}';
+        return "Student{" + "id=" + id + ", name='" + name + '\'' + ", city='" + city + '\'' + '}';
     }
 
     public Certificate getCertificate() {
