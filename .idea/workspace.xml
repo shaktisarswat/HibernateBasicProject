@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23dc0ab-d441-4f54-adeb-a8d219d9a28d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/hql/HQLDeleteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/hql/HQLGetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/hql/HQLUpdateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/ManyToOneAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/ManyToOneAnswer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/ManyToOneMappingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/ManyToOneMappingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/OneToManyMappingQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/OneToManyMappingQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/manytomanymapping/ManyToManyMappingEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/manytomanymapping/ManyToManyMappingEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/manytomanymapping/ManyToManyMappingProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/manytomanymapping/ManyToManyMappingProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapping/manytomanymapping/TestManyToManyMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/mapping/manytomanymapping/TestManyToManyMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

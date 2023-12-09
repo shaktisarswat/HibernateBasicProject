@@ -1,4 +1,6 @@
-package com.hibernate;
+package com.hibernate.basicentity;
+
+import com.hibernate.basicentity.Certificate;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

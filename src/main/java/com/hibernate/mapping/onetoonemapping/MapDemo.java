@@ -1,5 +1,7 @@
-package com.hibernate.mapping;
+package com.hibernate.mapping.onetoonemapping;
 
+import com.hibernate.mapping.onetoonemapping.Answer;
+import com.hibernate.mapping.onetoonemapping.Question;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

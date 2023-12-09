@@ -1,26 +1,27 @@
-package com.hibernate.mapping;
+package com.hibernate.mapping.onetomany;
 
-import javax.persistence.Column;
+import com.hibernate.mapping.onetomany.ManyToOneAnswer;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.OneToMany;
+import java.util.List;
 
 @Entity
-public class Question {
+public class OneToManyMappingQuestion {
     @Id
-    @Column(name = "question_id")
     private int questionId;
     private String question;
-    @OneToOne
-    private Answer answer;
+    @OneToMany
+    private List<ManyToOneAnswer> answers;
 
-    public Question() {
+    public OneToManyMappingQuestion() {
     }
 
-    public Question(int questionId, String question, Answer answer) {
+    public OneToManyMappingQuestion(int questionId, String question, List<ManyToOneAnswer> answers) {
         this.questionId = questionId;
         this.question = question;
-        this.answer = answer;
+        this.answers = answers;
     }
 
     public int getQuestionId() {
@@ -39,20 +40,20 @@ public class Question {
         this.question = question;
     }
 
-    public Answer getAnswer() {
-        return answer;
+    public List<ManyToOneAnswer> getAnswers() {
+        return answers;
     }
 
-    public void setAnswer(Answer answer) {
-        this.answer = answer;
+    public void setAnswers(List<ManyToOneAnswer> answers) {
+        this.answers = answers;
     }
 
     @Override
     public String toString() {
-        return "Question{" +
+        return "ManyToOneMappingQuestion{" +
                 "questionId=" + questionId +
                 ", question='" + question + '\'' +
-                ", answer=" + answer +
+                ", answers=" + answers +
                 '}';
     }
 }

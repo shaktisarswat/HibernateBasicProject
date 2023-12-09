@@ -1,4 +1,4 @@
-package com.hibernate.mapping;
+package com.hibernate.mapping.onetomany;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

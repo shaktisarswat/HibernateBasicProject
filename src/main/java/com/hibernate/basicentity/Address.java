@@ -1,4 +1,4 @@
-package com.hibernate;
+package com.hibernate.basicentity;
 
 import javax.persistence.*;
 import java.util.Arrays;

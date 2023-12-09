@@ -1,6 +1,6 @@
 package com.hibernate.hql;
 
-import com.hibernate.Student;
+import com.hibernate.basicentity.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
