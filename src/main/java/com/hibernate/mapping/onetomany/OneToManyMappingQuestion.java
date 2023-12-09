@@ -2,6 +2,7 @@ package com.hibernate.mapping.onetomany;
 
 import com.hibernate.mapping.onetomany.ManyToOneAnswer;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -12,7 +13,7 @@ public class OneToManyMappingQuestion {
     @Id
     private int questionId;
     private String question;
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL)
     private List<ManyToOneAnswer> answers;
 
     public OneToManyMappingQuestion() {

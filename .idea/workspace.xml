@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23dc0ab-d441-4f54-adeb-a8d219d9a28d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/cascading/CascadingExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +64,13 @@
       <recent name="C:\Users\shakti_sarswat\Desktop\JAVA\HibernateBasicProject\src\main\java\com\hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HQLUpdateExample">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibernate.App" />
+  <component name="RunManager" selected="Application.CascadingExample">
+    <configuration name="CascadingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.cascading.CascadingExample" />
       <module name="HibernateBasicProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hibernate.*" />
+          <option name="PATTERN" value="com.hibernate.cascading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestManyToManyMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapping.manytomanymapping.TestManyToManyMapping" />
+    <configuration name="ManyToOneMappingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.mapping.onetomany.ManyToOneMappingDemo" />
       <module name="HibernateBasicProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapping.manytomanymapping.*" />
+          <option name="PATTERN" value="com.hibernate.mapping.onetomany.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CascadingExample" />
+        <item itemvalue="Application.ManyToOneMappingDemo" />
         <item itemvalue="Application.HQLUpdateExample" />
         <item itemvalue="Application.HQLDeleteExample" />
         <item itemvalue="Application.HQLGetExample" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.TestManyToManyMapping" />
       </list>
     </recent_temporary>
   </component>
